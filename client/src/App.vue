@@ -21,7 +21,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </main>
 
   <footer>
-
+    все права защищены &copy; 2024
   </footer>
 
 
@@ -29,8 +29,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <style scoped>
 nav {
-  display: flex;
-  gap: 10px;
-
+  background-color: wheat;
+  
 }
 </style>
