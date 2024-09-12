@@ -23,8 +23,8 @@ const router = createRouter({
         component: BlogView
     },
     {
-        path: '/product/:id',
-        name: 'product',
+        path: '/post/:id',
+        name: 'post',
         component: PostView
     }
 ]

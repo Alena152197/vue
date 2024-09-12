@@ -8,7 +8,7 @@
                     {{ tag }}
                 </li>
             </ul>
-            <RouterLink :to="'/product/' + (index + 1)">Читать подробнее</RouterLink>
+            <RouterLink :to="'/post/' + (index + 1)">Читать подробнее</RouterLink>
         </li>
 
 </template>
