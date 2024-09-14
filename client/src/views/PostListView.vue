@@ -29,5 +29,3 @@ ul {
     grid-template-columns: repeat();
 }
 </style>
-
-
