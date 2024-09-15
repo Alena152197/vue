@@ -1,9 +1,6 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import ShareView from './views/ShareView.vue'
-// import HelloWorld from './components/HelloWorld.vue'
-// import TheWelcome from './components/TheWelcome.vue'
-
+  import { RouterLink, RouterView } from 'vue-router'
+  import ShareView from './views/ShareView.vue';
 </script>
 
 <template>
@@ -28,14 +25,15 @@ import ShareView from './views/ShareView.vue'
     <RouterView />
   </main>
 
+  <section>
+    <ShareView />
+  </section>
 
   <footer>
     все права защищены &copy; 2024
   </footer>
 
-  <section>
-    <ShareView />
-  </section>
+
  
 
 </template>
