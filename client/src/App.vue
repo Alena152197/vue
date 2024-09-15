@@ -1,8 +1,9 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import ShareView from './views/ShareView.vue'
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import TheWelcome from './components/TheWelcome.vue'
+
 </script>
 
 <template>
@@ -35,7 +36,7 @@ import TheWelcome from './components/TheWelcome.vue'
   <section>
     <ShareView />
   </section>
-
+ 
 
 </template>
 
