@@ -22,7 +22,7 @@
 
 
 
-  <main>
+  <main class="container mx-auto">
     <RouterView />
   </main>
 
@@ -30,7 +30,7 @@
     <ShareView />
   </section>
 
-  <footer>
+  <footer class="container mx-auto ">
     все права защищены &copy; 2024
   </footer>
 
@@ -43,10 +43,19 @@
 section {
   position: fixed;
   bottom: 60px;
-  right: 60px;
+  right: 100px;
 }
 
 nav {
   background-color: wheat;
+}
+
+a {
+  border: 1px solid brown;
+  border-radius: 5px;
+  padding: 5px;
+  background: brown;
+  color: wheat;
+  
 }
 </style>

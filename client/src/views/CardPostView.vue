@@ -56,6 +56,7 @@ a {
     background-color: brown;
     text-decoration: none;
     color: wheat;
+    border-radius: 5px;
 }
 
 a:hover {
