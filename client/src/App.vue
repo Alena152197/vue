@@ -8,10 +8,11 @@
     <div id="minApp" class="container mx-auto">
       <header class="bg-teal-400">
 
-        <nav>
+        <nav class="flex flex-row p-5 gap-5 text-lg font-bold">
           <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/about">About</RouterLink>
           <RouterLink to="/blog">Blog</RouterLink>
+
         </nav>
 
       </header>
