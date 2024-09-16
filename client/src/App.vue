@@ -12,7 +12,7 @@
           <RouterLink to="/">Home</RouterLink>
           <RouterLink to="/about">About</RouterLink>
           <RouterLink to="/blog">Blog</RouterLink>
-
+          <RouterLink to="/contact">Contacts</RouterLink>
         </nav>
 
       </header>
